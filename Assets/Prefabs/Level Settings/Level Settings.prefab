@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7422335645702194006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2980187031908140000}
+  - component: {fileID: 3856990946381605633}
+  - component: {fileID: 6557312167118691318}
+  m_Layer: 0
+  m_Name: Level Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2980187031908140000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422335645702194006}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1192.4323, y: -372.41672, z: 177.76787}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3856990946381605633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422335645702194006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c1017b2d6c244aaaa743a5278dfd8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 3467694923181488428, guid: 617c881477f044d4c8bdf6cdeabccbc6, type: 3}
+  inGameUIPrefab: {fileID: 2408019166733380211, guid: 4e826da4283ee485bb42cb4c2358b7c6, type: 3}
+  managedPoolPrefab: {fileID: 3538742506063239807, guid: 57188d9b26e9c4f1a801566c490e6d6b, type: 3}
+  finishedEnteringGameRpc: {fileID: 4956123533111154737, guid: 52a742ed9efc7485195e802ce3dd5e93, type: 3}
+  ballsListPrefab: {fileID: 6988614865079509937, guid: 19ad6d7b6c658467d83cafc7ad261cf6, type: 3}
+  scoringPrefab: {fileID: 1815876996877030093, guid: 4a1547111048843559f7667755ac34ca, type: 3}
+--- !u!114 &6557312167118691318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7422335645702194006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a308f681f4444a818a04f597364bbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

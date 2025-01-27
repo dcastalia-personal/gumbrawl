@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5441047561820959606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7891019945692388479}
+  - component: {fileID: 3647376455652697737}
+  - component: {fileID: 1250558318007061461}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7891019945692388479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441047561820959606}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5464172582730141163}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3647376455652697737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441047561820959606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a308f681f4444a818a04f597364bbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1250558318007061461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441047561820959606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b92f697f4624d2995c43cd50f5f3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modification: 1
+--- !u!1001 &6845311794776758500
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 468932346807566650, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: prefabId
+      value: dcdda72fc2fb54b0eaa403c626860b29
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457861915255284433, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: m_Name
+      value: Next Bubble Worth Up Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 7874775786910452854, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: effectUIPrefab
+      value: 
+      objectReference: {fileID: 4025224165890351332, guid: e580087a4977146408bd967a624b0abb, type: 3}
+    - target: {fileID: 8733566839040024211, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: title
+      value: Expensive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733566839040024211, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      propertyPath: description
+      value: Blown bubbles are worth more
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7891019945692388479}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+--- !u!4 &5464172582730141163 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1525535877549970703, guid: 88bf8b6e7ceaf444daa55490d1acb38d, type: 3}
+  m_PrefabInstance: {fileID: 6845311794776758500}
+  m_PrefabAsset: {fileID: 0}
